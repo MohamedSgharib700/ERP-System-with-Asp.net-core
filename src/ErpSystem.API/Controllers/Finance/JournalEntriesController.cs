@@ -63,7 +63,7 @@ public class JournalEntriesController : ControllerBase
                 Debit = l.Debit,
                 Credit = l.Credit,
                 Description = l.Description
-            }).ToList()
+            }).ToList() 
         };
         _db.JournalEntries.Add(entry);
         await _db.SaveChangesAsync();
