@@ -1,0 +1,32 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.userprefs
+.idea/
+*.swp
+
+## Build outputs
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## EF Core (keep migrations, ignore generated artifacts)
+*.dbmdl
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Local secrets
+appsettings.*.local.json
+secrets.json
